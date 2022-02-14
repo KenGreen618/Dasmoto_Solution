@@ -1,13 +1,11 @@
         /* whole document styling  */
 *{
     font-family: Helvetica, sans-serif;
-    background-color: rgb(194, 199, 199);
+    background-color: rgb(218, 240, 240);
 }
 
         /* HEADER STYLING  */
 header{
-    background-color: rgba(194, 199, 199, 0.808);
-    ;
     height: 210px;
 }
 h1{
