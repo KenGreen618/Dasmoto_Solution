@@ -1,0 +1,79 @@
+        /* whole document styling  */
+*{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(194, 199, 199);
+}
+
+        /* HEADER STYLING  */
+header{
+    background-color: rgba(194, 199, 199, 0.808);
+    ;
+    height: 210px;
+}
+h1{
+    position: fixed;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url('../images/pattern.webp');
+    text-align: center;
+    filter: drop-shadow(1px 1px 1px black);
+}
+nav {
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 75px;
+    line-height:  7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: blueviolet;
+    font-size: 35px;
+}
+
+
+        /* SECTION STYLING */
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+        /* brushes styling */
+.brushes h2{
+    background-color: mediumspringgreen;
+}
+.brushes p span{
+    font-weight: bold;
+    color: blue;
+}
+
+        /* frames styling */
+.frames h2{
+    background-color: lightcoral;
+}
+.frames p span{
+    font-weight: bold;
+    color: blue;
+}
+
+        /* paint styling  */
+.paint h2{
+    background-color: skyblue;
+}
+.paint p span{
+    font-weight: bold;
+    color: blue;
+}
